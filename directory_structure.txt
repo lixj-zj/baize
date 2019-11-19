@@ -1,0 +1,57 @@
+
+# 白泽
+
+baize/
+|-- bin/    项目的可执行文件
+|   |-- __init__
+|　 |-- start.py   启动主程序，入口文件
+|
+|-- core/   存放项目的所有源代码(核心代码）。
+|		(1) 源代码中的所有模块、包都应该放在此目录。不要置于顶层目录。
+|		(2) 程序的入口最好命名为main.py。
+|   |-- machine_learning/       机器学习相关学习总结
+|   |   |-- classification/     分类算法
+|   |   |-- cluster/            聚类算法
+|   |   |-- regression/         回归算法
+|   |-- nlp/        NLP 相关学习总结
+|   |-- recommender_system/     推荐系统学习总结
+|   |-- tensorflow/             TensorFlow 学习总结
+|   |-- tests/      存放单元测试代码；
+|   |   |-- __init__.py
+|   |   |-- test_demo.py
+|   |
+|   |-- __init__.py
+|
+|-- config/    配置文件
+|   |-- __init__.py
+|   |-- setting.py   相关配置
+|
+|---db/    数据库文件
+|   |--db.json    数据库文件
+|
+|-- docs/   相关文档说明
+|
+|-- examples/   案例或者临时文件存放目录
+|
+|-- wiki/   wiki
+|
+|-- lib/   库文件（包括自定义模块和包）
+|   |-- __init__.py
+|   |-- common.py    常用功能模块
+|
+|-- log/   日志文件
+|   |-- dev.log   日志
+|
+|-- __init__.py
+|-- README.md    项目说明文件（内容说明，作者清单，版权声明，编译脚本）
+
+注：运行程序时，在bin目录下执行start.py代码，不可以直接执行core下的模块。
+
+README.md 作用：
+1. 软件定位，软件的基本功能。
+2. 运行代码的方法: 安装环境、启动命令等。
+3. 简要的使用说明。
+4. 代码目录结构说明，更详细点可以说明软件的基本原理。
+5. 常见问题说明。
+
+
